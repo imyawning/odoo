@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- 預設用印申請設定 -->
+        <record id="stamp_config_default" model="stamp.config">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="efgp_enabled" eval="False"/>
+            <field name="efgp_soap_url">http://192.168.3.229:8086/NaNaWeb/services/WorkflowService?wsdl</field>
+        </record>
+    </data>
+</odoo> 
